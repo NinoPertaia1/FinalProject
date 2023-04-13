@@ -375,3 +375,247 @@ li{
     text-align: center;
     color: #ffffff;
 }
+
+.section6{
+    width: 100%;
+    height: 100%;
+    background-color: #F8F5FF;
+    padding-top: 180px;
+}
+
+.section6div1{
+    margin-bottom: 62px;
+}
+
+.section6h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    font-style: normal;
+    text-align: center;
+    color: #8b8399;
+    margin: 0 auto;
+}
+
+.section6h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 40px;
+    font-style: normal;
+    text-align: center;
+    color: #51495f;
+    margin: 0 auto;
+}
+
+.section6div2{
+    max-width: 1640px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subdiv1{
+    width: 800px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    margin-bottom: 40px;
+}
+
+.carddiv1{
+    width: 647px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subdiv1 img{
+    width: 91px;
+    height: 91px;
+    margin-right: 30px;
+    margin-left: 51px;
+}
+
+.subdiv1 h4{
+    width: 511px;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    font-style: normal;
+    text-align: left;
+    color: #51495f;
+    margin-bottom: 10px;
+}
+
+.subdiv1 h5{
+    width: 511px;
+    height: 51px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-style: normal;
+    text-align: left;
+    color: #51495f;
+}
+
+.subdiv2{
+    background-color:#B28AF8 ;
+    width: 80px;
+    height: 80px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 20px;
+    align-self: flex-end;
+}
+
+.subdiv2 img{
+    width: 26px;
+    height: 26px;
+}
+
+.section7{
+    padding-top: 146px;
+    width: 100%;
+    height: 100%;
+    background-color: #F8F5FF;
+}
+
+.shapediv{
+    width: 179px;
+    height: 179px;
+    position: absolute;
+    left: 61px;
+    top:3870px
+}
+
+.section7div2{
+    max-width: 1640px;
+    height: 381px;
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.individualcard{
+    width: 380px ;
+    height: 381px;
+    background-color:#FFFFFF ;
+    border-radius: 40px;
+
+}
+
+.section7cd1{
+    width: 380px;
+    height: 242px;
+    background-color: #DCC7FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.section7cd1 img{
+    width: 282px ;
+    height: 140px;
+}
+
+
+.section7cd2{
+    width: 380px;
+    height: 242px;
+    background-color: #AACBFC;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.section7cd2 img{
+    width: 236px;
+    height: 159px;
+}
+
+.section7cd3{
+    width: 380px;
+    height: 242px;
+    background-color: #FFC7E1;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.section7cd3 img{
+    width: 220px;
+    height: 153px;
+}
+.section7cd4{
+    width: 380px;
+    height: 242px;
+    background-color: #FCFFCE;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.section7cd4 img{
+    width: 261px ;
+    height: 165px;
+}
+
+.section7div2 h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    font-style: normal;
+    text-align: left;
+    color: #51495f;
+    text-align: center;
+    margin-top: 44px;
+}
+
+.section7div2 h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-style: normal;
+    text-align: left;
+    color: #51495f;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.section7div3{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.arrowdiv2{
+    width: 120px;px ;
+    margin: 0  auto;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}

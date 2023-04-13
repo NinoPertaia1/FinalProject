@@ -1,3 +1,18 @@
+@media (max-width:1620px){
+    .section6div2{
+        flex-direction: column;
+        margin-bottom: 0px;
+        margin: 0  auto;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    .subdiv1{
+        margin-bottom: 40px;
+    }
+}
+
 @media (max-width:1470px){
     .section4box{
         display: flex;
@@ -30,8 +45,21 @@
     .section5div2 h2{
         font-size: 70px;
     }
-    ..section5div2 h4{
+    .section5div2 h4{
         font-size: 16px;
+    }
+
+    .subdiv1{
+        width: 90%;
+    }
+    .carddiv1{
+        width:90%
+    }
+    .subdiv1 h4{
+        width: 90%;
+    }
+    .subdiv1 h5{
+        width: 90%;
     }
 }
 
