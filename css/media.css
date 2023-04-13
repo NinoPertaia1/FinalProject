@@ -1,12 +1,37 @@
+@media (max-width:1470px){
+    .section4box{
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+    }
+    .section5{
+        display: inline-block;
+    }
+    .section5div2{
+        max-width: 80%;
+}
+
+
 @media (max-width: 1070px){
     .headerdiv1{
         display: none;
+    }
+    .section3div2{
+        display: block;
     }
 }
 
 @media (max-width: 860px){
     ul{
         display: none;
+    }
+    .section5div2 h2{
+        font-size: 70px;
+    }
+    ..section5div2 h4{
+        font-size: 16px;
     }
 }
 
@@ -35,3 +60,4 @@
         margin-bottom: 20px;
     }
 }
+
