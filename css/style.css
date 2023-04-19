@@ -985,6 +985,14 @@ input[type=email]{
     margin: 0 auto;
     margin-top: 40px;
     padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconsdiv{
+    width: 205px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footersubdiv8{
@@ -992,9 +1000,26 @@ input[type=email]{
     height: 40px;
     background-color:#C4A3FD ;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .footersubdiv6 a{
     color: white;
+}
+
+.rightsreserved{
+    width: 224px;
+}
+
+.rightsreserved h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
 }
