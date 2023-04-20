@@ -86,7 +86,7 @@
 
 .section1{
     background-color: #B28AF8;
-    width: 1910px;
+    max-width: 1910px;
     height: 960px;
     position:relative;
     overflow: hidden;:  !important; 
@@ -118,8 +118,8 @@
 
 
 .imageabc{    
-    width: 1087px;
-    height: 783px;
+    max-width: 1087px;
+    max-height: 783px;
     position: absolute;
     left:970px;
     top:149px;
@@ -294,16 +294,17 @@
 }
 
 .section4div1{
-    width: 777px;
-    height: 652px ;
+    max-width: 777px;
+    max-height: 652px ;
+    overflow: hidden;:  !important; 
 
 }
 .section4div2{
-    width: 102px;
+    max-width: 102px;
 }
 
 .section4div3{
-    width: 521px ;
+    max-width: 521px ;
     height: 557px;
 }
 
@@ -420,7 +421,7 @@
 }
 
 .subdiv1{
-    width: 800px;
+    max-width: 800px;
     height: 250px;
     display: flex;
     justify-content: space-between;
@@ -430,21 +431,21 @@
 }
 
 .carddiv1{
-    width: 647px;
+    max-width: 647px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .subdiv1 img{
-    width: 91px;
+    max-width: 91px;
     height: 91px;
     margin-right: 30px;
     margin-left: 51px;
 }
 
 .subdiv1 h4{
-    width: 511px;
+    max-width: 511px;
     height: 24px;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
@@ -457,7 +458,7 @@
 }
 
 .subdiv1 h5{
-    width: 511px;
+    max-width: 511px;
     height: 51px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -756,7 +757,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    width: 659px;
+    max-width: 659px;
     flex-direction: column;
     z-index: 980;
 }
@@ -788,17 +789,25 @@
 }
 
 .footersubdiv2{
-    width: 667px;
+    /* max-width: 667px; */
     height: 80px;
     background-color:#C4A3FD ;
     border-color: #FFFFFF;
     border-width: 1px;
     border-style: solid;
     border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subcribediv1{
+    max-width: 667px;
+    display: flex;
+    justify-content: space-between;
 }
 
 input[type=email]{
-    width: 408px;
+    max-width: 368px;
     height: 70px;
     background-color:#C4A3FD ;
     border: none;
@@ -942,7 +951,7 @@ input[type=email]{
 }
 
 .footersubdiv6{
-    width: 381px;
+    max-width: 381px;
     margin-bottom: 30px;
 }
 
@@ -977,6 +986,7 @@ input[type=email]{
     max-width: 1900px;
     margin: 0 auto;
     justify-content: center;
+    overflow: hidden;:  !important; 
 
 }
 
