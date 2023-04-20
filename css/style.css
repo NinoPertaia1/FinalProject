@@ -51,6 +51,15 @@
     z-index: 1002;
 }
 
+.logoclass a:hover{
+    color:#DCC7FF ;
+}
+
+.logoclass a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .headerdiv1{
     display: flex;
     justify-content: space-between;
@@ -82,6 +91,51 @@
     text-align: center;:  !important;
     color: #ffffff;
     z-index: 1002;
+}
+
+.button1:hover{
+    scale: 1.1;
+    background-color:#956AE1;
+}
+
+.burgerbar{
+    display: none;
+    cursor: pointer;
+}
+
+.dropdown-menu{
+    position: absolute;
+    right: 5rem;
+    top: 80px;
+    width: 300px;
+    height: 0;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    display: none;
+    transition: heigt .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown-menu.open{
+    height: 250px;
+}
+
+.dropdown-menu li{
+    padding: 0.7rem ;
+    color: #722ee7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-menu a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff; 
 }
 
 .section1{
@@ -789,7 +843,7 @@
 }
 
 .footersubdiv2{
-    /* max-width: 667px; */
+    max-width: 667px;
     height: 80px;
     background-color:#C4A3FD ;
     border-color: #FFFFFF;
@@ -804,6 +858,8 @@
     max-width: 667px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
 }
 
 input[type=email]{
@@ -1033,3 +1089,4 @@ input[type=email]{
     text-align: left;
     color: #ffffff;
 }
+

@@ -78,6 +78,12 @@
     nav{
         display: none;
     }
+    .burgerbar{
+        display: flex;
+    }
+    .dropdown-menu{
+        display: block;
+    }
 }
 
 @media (max-width:907px){
@@ -159,6 +165,11 @@
     .input[type=email]{
         width: 168px;
     }
+    .dropdown-menu{
+        left: 2rem;
+        width: unset;
+    }
+
 
 }
 

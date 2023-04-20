@@ -21,18 +21,18 @@
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-    <header class="myheader">
+    <header class="myheader" >
         <section class="headersection container">
             <div class="logoclass">
-                <img src="images/logo.svg" alt="">
+                <a href="#"></a><img src="images/logo.svg" alt="">
                 <nav>
                     <ul>
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Services</li>
-                        <li>Blog</li>
-                        <li>Portfolio</li>
-                        <li>Contact</li>
+                        <li> <a href="#">Home</a> </li>
+                        <li> <a href="#aboutussection">About Us</a></li>
+                        <li><a href="#servicessection">Services</a></li>
+                        <li><a href="#blogsection">Blog</a> </li>
+                        <li> <a href="#portfoliosection">Portfolio</a></li>
+                        <li><a href="#contactssection">Contact</a> </li>
                     </ul>
                 </nav>
             </div>
@@ -41,7 +41,21 @@
                     <h5 class="button2">contact us</h5>
                 </div>
             </div>
+            <div class="burgerbar">
+                <i class="fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i>
+            </div>
         </section>
+        <div class="dropdown-menu">
+            <ul>
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#aboutussection">About Us</a></li>
+                <li><a href="#servicessection">Services</a></li>
+                <li><a href="#blogsection">Blog</a> </li>
+                <li> <a href="#portfoliosection">Portfolio</a></li>
+                <li><a href="#contactssection">Contact</a> </li>
+            </ul>
+            </ul>
+        </div>
     </header>
     
     <section class="section1">
@@ -64,7 +78,7 @@
         </div>
 
     </section>
-    <section class="section3" >
+    <section class="section3" id="aboutussection" >
         <div class="section3div">
             <h5>These Companies Trust Us</h5>
             <h3>with their marketing</h3>
@@ -129,7 +143,7 @@
             </div>
         </div>
     </section>
-    <section class="section6">
+    <section class="section6" id="servicessection">
         <div class="section6div1">
             <h5 class="section6h5">We Are A Digital Agency</h5>
             <h3 class="section6h3">Experts Services To Change Business</h3>
@@ -196,7 +210,7 @@
         </div>
     </section>
 
-    <section class="section7">
+    <section class="section7" id="portfoliosection">
         <div class="section6div1">
             <h5 class="section6h5">Awesome Portfolio</h5>
             <h3 class="section6h3">We Have A Great Portfolio To Check</h3>
@@ -250,7 +264,7 @@
         </div>
     </section>
 
-    <section class="section8">
+    <section class="section8" id="blogsection">
         <div class="section6div1">
             <h5 class="section6h5">Our Blogs</h5>
             <h3 class="section6h3">Our Blog & article</h3>
@@ -315,7 +329,7 @@
             <img src="images/shape2.png" alt="">
         </div>
     </section>
-    <footer class="footersection">
+    <footer class="footersection" id="contactssection">
         <div class="footerdiv1">
             <img class="shape3class" src="images/shape3.svg" alt="">
             <img class="shape4class" src="images/shape4.svg" alt="">
@@ -328,7 +342,7 @@
                 <h5>expanding significance of internet promoting.</h5>
              </div> 
              <div class="footersubdiv2">
-                <div>
+                <div class="subcribediv1">
                     <label for="email"></label>
                     <input type="email" id="email" name="email" placeholder="Email">
                      <input class="submit1" type="submit" value="subscribe">
@@ -395,6 +409,19 @@
        </div>
 
     </footer>
+    <script>
+        const burgerbarbtn=document.querySelector('.burgerbar')
+        const burgerbarbtnicon=document.querySelector('.burgerbar i')
+        const dropdownmenu=document.querySelector('.dropdown-menu')
 
+        burgerbarbtn.onclick= function () {
+            dropdownmenu.classList.toggle('open')
+            const isOpen = dropdownmenu.classList.contains('open')
+
+            burgerbarbtnicon.classList = isOpen
+                ? 'fa-solid fa-xmark fa-2xl'
+                : 'fa-solid fa-bars fa-2xl'
+        }
+    </script>
 </body>
 </html>
